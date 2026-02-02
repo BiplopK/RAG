@@ -11,6 +11,5 @@ class Retrivers:
             if similarity_score>= threshold:
                 final_result.append((doc,similarity_score))
 
-
         return final_result
     
